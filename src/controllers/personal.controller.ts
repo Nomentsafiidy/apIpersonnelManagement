@@ -1,5 +1,4 @@
 import { Request, Response } from 'express';
-import { resolve } from 'path';
 import { Personal, PersonalType } from './../models/personal';
 
 export default class PersonalController {
