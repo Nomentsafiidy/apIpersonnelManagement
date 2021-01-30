@@ -1,0 +1,31 @@
+{
+  "name": "apipersonnelmanagement",
+  "version": "1.0.0",
+  "description": "CRUD sur la gestion du personnel",
+  "main": "index.js",
+  "scripts": {
+    "start": "dist/index.js",
+    "dev" : "nodemon src/index.ts",
+    "build": "tsc -p ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nomentsafiidy/apIpersonnelManagement.git"
+  },
+  "author": "Nomentsafidy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nomentsafiidy/apIpersonnelManagement/issues"
+  },
+  "homepage": "https://github.com/Nomentsafiidy/apIpersonnelManagement#readme",
+  "devDependencies": {
+    "@types/node": "^14.14.22",
+    "nodemon": "^2.0.7",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.11",
+    "express": "^4.17.1"
+  }
+}
